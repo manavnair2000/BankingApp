@@ -70,8 +70,8 @@
                 <div id="user-display" class="white col s12 l12">
                     <user-display-header></user-display-header>
                     <ul class="tabs tabs-icon tabs-fixed-width tab-demo z-depth-1">
-                        <li class="tab"><a class="active" href="#withdraw_deposit"> <!--i class="material-icons left pink-text">account_circle</i--> Withdraw / Deposit</a></li>
-                        <li class="tab"><a href="#transaction_history"> <!--i class="material-icons left pink-text">account_balance</i-->Transaction History</a></li>
+                        <li class="tab"><a class="active" href="#withdraw_deposit"> <!--i class="material-icons left pink-text">account_circle</i--> Transaction</a></li>
+                        <li class="tab"><a href="#transaction_history"> <!--i class="material-icons left pink-text">account_balance</i-->Account Statement</a></li>
                     </ul>
                     <form id="withdraw_deposit" class="col s12" method="post">
                         <center>
