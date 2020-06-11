@@ -1,0 +1,142 @@
+nav {
+    background: linear-gradient(to bottom right, #009999 0%, #cc99ff 100%);
+}
+html{
+    background: linear-gradient(to bottom right, #ff3399 0%, #cc99ff 100%) no-repeat fixed;
+}
+#form{
+    min-height: 75vh;
+    margin-top: 10vh;
+    padding: 0;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 16px 24px 0 rgba(0, 0, 0, 0.2);
+}
+#form-header{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+#user-display-header{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+#user-display{
+    min-height: 75vh;
+    margin-top: 3vh;
+    padding: 0;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 16px 24px 0 rgba(0, 0, 0, 0.2);
+}
+#banklogin{
+    margin-top: 20vh;
+    width:20vw;
+}
+#cuslogin{
+    margin-top: 25vh;
+    width:20vw;
+}
+#page-title-s{
+    font-size: large;
+}
+/* label color */
+.input-field label {
+    color: #ec407a !important;
+}
+.input-field input[type=number] + label {
+    -webkit-appearance: none !important;
+    margin: 0;
+}
+/* label focus color */
+.input-field input[type=number]:focus + label {
+    color: #8e24aa !important;
+    -webkit-appearance: none !important;
+}
+/* label underline focus color */
+.input-field input[type=number]:focus {
+    border-bottom: 1px solid #8e24aa !important;
+    box-shadow: 0 1px 0 0 #000 !important;
+    -webkit-appearance: none !important;
+}
+/* valid color */
+.input-field input[type=number].valid {
+    border-bottom: 1px solid #c6ff00 !important;
+    box-shadow: 0 1px 0 0 #000;
+    -webkit-appearance: none !important;
+}
+.input-field input[type=text] + label {
+    margin: 0;
+}
+/* label focus color */
+.input-field input[type=text]:focus + label {
+    color: #8e24aa !important;
+}
+/* label underline focus color */
+.input-field input[type=text]:focus {
+    border-bottom: 1px solid #8e24aa !important;
+    box-shadow: 0 1px 0 0 #000 !important;
+}
+/* valid color */
+.input-field input[type=text].valid {
+    border-bottom: 1px solid #c6ff00 !important;
+    box-shadow: 0 1px 0 0 #000;
+}
+/* invalid color */
+.input-field input[type=password].invalid {
+    border-bottom: 1px solid #b71c1c !important;
+    box-shadow: 0 1px 0 0 #000 !important;
+}
+.input-field input[type=password]:focus + label {
+    color: #8e24aa !important;
+}
+/* label underline focus color */
+.input-field input[type=password]:focus {
+    border-bottom: 1px solid #8e24aa !important;
+    box-shadow: 0 1px 0 0 #000 !important;
+}
+/* valid color */
+.input-field input[type=password].valid {
+    border-bottom: 1px solid #c6ff00 !important;
+    box-shadow: 0 1px 0 0 #000;
+}
+/* invalid color */
+.input-field input[type=password].invalid {
+    border-bottom: 1px solid #b71c1c !important;
+    box-shadow: 0 1px 0 0 #000 !important;
+}
+/* icon prefix focus color */
+.input-field .prefix.active {
+    color: #8e24aa !important;
+}
+#bank_login_button, #user_login_button,#withdraw_button , #deposit_button{
+    border-radius: 5px;
+    width: 100%;
+}
+[type="radio"].with-gap:checked+label:after {
+  background-color: #FFA500 !important;
+}
+
+[type="radio"].with-gap:checked+label:before,
+[type="radio"].with-gap:checked+label:after {
+  border: 2px solid #FFA500 !important;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield !important;
+}
+
+@media screen and (max-width:670px){
+    #banklogin{
+        width:80vw;
+    }
+    #cuslogin{
+        width:80vw;
+    }
+    #form{
+        height: 85vh;
+        margin-top: 3vh;
+        background-color: white;
+        border-radius: 15px;
+    }   
+}
